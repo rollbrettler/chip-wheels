@@ -4,6 +4,7 @@
 FROM debian:12
 LABEL org.opencontainers.image.source https://github.com/project-chip/connectedhomeip
 
+
 RUN set -x \
     && apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get upgrade -y \
